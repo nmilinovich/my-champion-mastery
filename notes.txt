@@ -1,0 +1,28 @@
+Backend:
+- 3 hours - $45 - Build an API capable of returning mastery data when given a username and a region
+
+Front End:
+- 1.5 hours - $22.5 - Build a page that requests a username and a region and stores the values of username and region in the state
+- 2 hours - $30 - Make a request to the API you built and get the response (can print to console)
+- 0.5 hours - $7.5 - Let user know if an error happened ie user does not exist. Hide the old page and redirect to a new page (can be an empty page) after request is complete
+- 6 hours - $90 - Render all the information on the new page use html table element
+- 3 hours - $45 - Make everything not fugly (do the CSS)
+
+Finish Bonus:
+- 0 hours - $60 - Celebrate our victory and add it to GitHub!
+
+
+
+
+
+How to change directory: "cd" -drag and drop folder
+
+How to run a project: npm run <script name (start)>
+for both server and front end
+Need two terminal windows to run front and back end individually.
+
+Change API key with riots website to avoid error.
+
+St1: request hasnt been completed champMastData is empty. What is currently rendered.
+St2: request is completed. ChampMastData has err property. Display what is currently rendered with error message.
+St3: Request is completed properly champmastdata does not have error. Displah new page.
